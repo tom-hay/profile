@@ -1,0 +1,83 @@
+body {
+  background-color: peachpuff;
+  font-family: "Roboto Slab";
+  line-height: 1;
+}
+h1 {
+  color: #0f4c75;
+  font-size: 20px;
+}
+h2 {
+  color: #3282b8;
+  font-size: 15px;
+}
+h3 {
+  color: #ff80b0;
+  font-size: 10px;
+}
+img {
+    a:hover;
+    object-fit: cover;
+    width: 150px;
+    height: 185px;
+    border border-radius: 50%;
+    border-radius: 26%;
+    margin: auto;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.center {
+}
+
+.btn-ruby {
+    background-color: #red;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
